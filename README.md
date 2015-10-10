@@ -1,2 +1,4 @@
 # Dowry-System-WebApp
-A mini website given to us for college project
+A website given to us for a college mini project.
+#Title 
+Effects of Dowry System on our Society.
