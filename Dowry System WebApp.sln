@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Dowry System WebApp", ".", 
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54878"
+		SlnRelativePath = "..\Dowry System WebApp\"
 	EndProjectSection
 EndProject
 Global
