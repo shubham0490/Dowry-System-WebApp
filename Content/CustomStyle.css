@@ -1,6 +1,10 @@
 ﻿body {
   margin: 0;
   background: #000; 
+  color:whitesmoke;
+}
+.mar1{
+    margin-top:65px;
 }
 video { 
     position: fixed;
@@ -30,6 +34,7 @@ video {
   margin:2rem;
   float: right;
   font-size: 1.2rem;
+  margin-top:38%;
 }
 h1 {
   font-size: 3rem;
@@ -58,12 +63,12 @@ a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  background:rgba(0,0,0,0.5);
+  background:transparent;
   padding: .5rem;
   transition: .6s background; 
 }
 a:hover{
-  background:rgba(0,0,0,0.9);
+  background:transparent;
 }
 @media screen and (max-width: 500px) { 
   div{width:70%;} 
@@ -75,7 +80,7 @@ a:hover{
 
 /* Navigation Menu */
 .navbar-brand {
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .navbar-default .navbar-brand {
