@@ -1,6 +1,10 @@
-﻿body {
+﻿p,article,h1,h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
   margin: 0;
-  background: #000; 
+  background:url(/img/road-lights-blur.jpg); 
   color:whitesmoke;
 }
 .mar1{
@@ -16,7 +20,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+ background: url('/img/Mumbai-Skyline.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -74,7 +78,7 @@ a:hover{
   div{width:70%;} 
 }
 @media screen and (max-device-width: 800px) {
-  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  html { background: url(/img/Mumbai-Skyline.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
 
@@ -112,15 +116,15 @@ a:hover{
     background:rgba(255,255,255,0.9);
 }
 
-footer {
+.footer {
     opacity: 0.95;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    color:black;
 }
 
-footer p {
-   
- margin: 0;
+.footer p {
+   margin: 0;
     padding: 50px 0;
 }
 
@@ -131,4 +135,14 @@ footer p {
   
       clear: both;
     }
+}
+
+/*Image Hover Effects*/
+.eff1:hover {
+-webkit-transform: rotate(-8deg);
+transform: rotate(-8deg);
+}
+.eff1 {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
 }
