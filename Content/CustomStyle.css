@@ -4,13 +4,14 @@
 
 body {
   margin: 0;
-  background:url(/img/road-lights-blur.jpg); 
+  background:url(../img/road-lights-blur.jpg) no-repeat center center fixed;
+  background-repeat:no-repeat;
   color:whitesmoke;
 }
 .mar1{
     margin-top:65px;
 }
-video { 
+video.tech { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -20,7 +21,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('/img/Mumbai-Skyline.jpg') no-repeat;
+ background: url('../img/Mumbai-Skyline.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -78,7 +79,7 @@ a:hover{
   div{width:70%;} 
 }
 @media screen and (max-device-width: 800px) {
-  html { background: url(/img/Mumbai-Skyline.jpg) #000 no-repeat center center fixed; }
+  html { background: url(../img/Mumbai-Skyline.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
 
@@ -113,7 +114,7 @@ a:hover{
     padding: 30px 15px;
     background: white;
     color:#000;
-    background:rgba(255,255,255,0.9);
+    background-color:rgba(255,255,255,0.9);
 }
 
 .footer {
