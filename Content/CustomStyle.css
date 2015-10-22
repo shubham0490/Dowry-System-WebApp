@@ -1,17 +1,19 @@
-﻿p,article,h1,h2{
+﻿p, article, h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-  margin: 0;
-  background:url(../img/road-lights-blur.jpg) no-repeat center center fixed;
-  background-repeat:no-repeat;
-  color:whitesmoke;
+    margin: 0;
+    background: url(../img/road-lights-blur.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    color: whitesmoke;
 }
-.mar1{
-    margin-top:65px;
+
+.mar1 {
+    margin-top: 65px;
 }
-video.tech { 
+
+video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -21,129 +23,81 @@ video.tech {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('../img/Mumbai-Skyline.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-.stopfade { 
-   opacity: .5;
-}
-
-#polina { 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 1.2rem;
-  margin-top:38%;
-}
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-}
-#polina button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-#polina button:hover { 
-   background: rgba(0,0,0,0.5);
+    background: url('../img/Mumbai-Skyline.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
 }
 
 a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  background:transparent;
-  padding: .5rem;
-  transition: .6s background; 
-}
-a:hover{
-  background:transparent;
-}
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
-}
-@media screen and (max-device-width: 800px) {
-  html { background: url(../img/Mumbai-Skyline.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    padding: .5rem;
+    transition: .6s background;
 }
 
 /* Navigation Menu */
 .navbar-brand {
-	font-weight: 900;
+    font-weight: 900;
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+    color: #1abc9c;
 }
 
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
-	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
-}
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: #1abc9c;
+        background-color: transparent;
+        border-bottom: 2px solid #1abc9c;
+    }
 
-.navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
-}
+    .navbar-default .navbar-nav > li > a {
+        color: #1abc9c;
+    }
 
 .box {
     opacity: 0.95;
     margin-bottom: 20px;
-    padding-top:65px;
+    padding-top: 65px;
     padding: 30px 15px;
     background: white;
-    color:#000;
-    background-color:rgba(255,255,255,0.9);
+    color: #000;
+    background-color: rgba(255,255,255,0.9);
 }
 
 .footer {
     opacity: 0.95;
     background: #fff;
     background: rgba(255,255,255,0.9);
-    color:black;
+    color: black;
 }
 
-.footer p {
-   margin: 0;
-    padding: 50px 0;
-}
+    .footer p {
+        margin: 0;
+        padding: 50px 0;
+    }
 
 @media screen and (min-width:1200px) {
     .box:after {
         content: '';
         display: table;
-  
-      clear: both;
+        clear: both;
     }
 }
 
 /*Image Hover Effects*/
 .eff1:hover {
--webkit-transform: rotate(-8deg);
-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
 }
+
 .eff1 {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
