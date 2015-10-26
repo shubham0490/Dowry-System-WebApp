@@ -2,6 +2,14 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+p{
+    font-size:18px;
+}
+
+article{
+    font-size:18px;
+}
+
 body {
     margin: 0;
     background: url(../img/road-lights-blur.jpg) no-repeat center center fixed;
@@ -25,6 +33,7 @@ a {
 /* Navigation Menu */
 .navbar-brand {
     font-weight: 900;
+    font-size:28px;
 }
 
 .navbar-default .navbar-brand {

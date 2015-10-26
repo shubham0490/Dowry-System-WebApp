@@ -21,6 +21,11 @@ video {
     background: url('../img/Mumbai-Skyline.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
+    background-attachment:inherit;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
 }
 
 .stopfade {
@@ -97,6 +102,7 @@ a {
 /* Navigation Menu */
 .navbar-brand {
     font-weight: 900;
+    font-size:28px;
 }
 
 .navbar-default .navbar-brand {
