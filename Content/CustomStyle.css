@@ -2,12 +2,12 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-p{
-    font-size:18px;
+p {
+    font-size: 18px;
 }
 
-article{
-    font-size:18px;
+article {
+    font-size: 18px;
 }
 
 body {
@@ -33,7 +33,7 @@ a {
 /* Navigation Menu */
 .navbar-brand {
     font-weight: 900;
-    font-size:28px;
+    font-size: 28px;
 }
 
 .navbar-default .navbar-brand {
@@ -43,6 +43,8 @@ a {
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
 }
 
     .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -65,6 +67,33 @@ a {
     background-color: rgba(255,255,255,0.9);
 }
 
+#footer-section {
+    width: 100%;
+    min-height: 80px;
+    background-color: gainsboro;
+    margin-top: 80px;
+}
+
+    #footer-section p {
+        margin: 0;
+        padding: 25px 15px;
+        text-align: center;
+        line-height: 30px;
+        color: #1a1a1a;
+    }
+
+        #footer-section p a {
+            color: #3498db;
+        }
+
+@media screen and (min-width:400px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
 .footer {
     opacity: 0.95;
     background: #fff;
@@ -77,14 +106,6 @@ a {
         padding: 50px 0;
     }
 
-@media screen and (min-width:1200px) {
-    .box:after {
-        content: '';
-        display: table;
-        clear: both;
-    }
-}
-
 /*Image Hover Effects*/
 .eff1:hover {
     -webkit-transform: rotate(-8deg);
@@ -92,6 +113,26 @@ a {
 }
 
 .eff1 {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.eff2:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.eff2 {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.eff3:hover {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+}
+
+.eff3 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
