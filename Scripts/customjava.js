@@ -36,18 +36,17 @@ muteButton.addEventListener("click", function () {
     }
 });
 
-/*
-function enableControls() {
-    vid.volume = 0;
-    vid.load();
-}
 
-function disableControls() {
-    vid.volume = 1;
-    vid.load();
-}
+//function enableControls() {
+//    vid.volume = 0;
+//    vid.load();
+//}
 
-function checkControls() {
-    alert(vid.controls);
-}
-*/
+//function disableControls() {
+//    vid.volume = 1;
+//    vid.load();
+//}
+
+//function checkControls() {
+//    alert(vid.controls);
+//}
