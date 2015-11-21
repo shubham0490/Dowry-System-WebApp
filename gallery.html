@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
     <title>Gallery</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +15,10 @@
     <link href="Content/cosmo-bootstrap.min.css" rel="stylesheet" />
     <link href="Content/CustomStyle.css" rel="stylesheet" />
     <link href="Content/animations.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Content/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="Content/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="Content/demo.css">
+
     <style>
         .carousel-inner > .item > img,
         .carousel-inner > .item > a > img {
@@ -33,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-globe"></span> DOWRY</a>
+                <a class="navbar-brand" href="index.html">DOWRY</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -46,6 +53,8 @@
             </div><!--/.nav-collapse -->
         </div>
     </div>
+
+    <a name="top"></a>
 
     <div class="container">
         <div class="row">
@@ -104,13 +113,196 @@
                     </a>
                 </div>
             </div>
-
+            <div class="col-md-12 box">
+                <a name="vids"></a>
+                <h1>Some Videos related to Dowry</h1>
                 <div class="col-md-6">
                     <video controls="controls" width="500" height="400">
                         <source src="../Videos/Dowry_system.mp4" type="video/mp4" />
                     </video>
                 </div>
-           
+
+                <div class="col-md-6">
+                    <video controls="controls" width="500" height="400">
+                        <source src="../Videos/video_2.mp4" type="video/mp4" />
+                    </video>
+                </div>
+
+                <div class="row"></div>
+                <br />
+
+                <div class="col-md-6">
+                    <video controls="controls" width="500" height="400">
+                        <source src="../Videos/video_3.mp4" type="video/mp4" />
+                    </video>
+                </div>
+
+                <div class="col-md-6">
+                    <video controls="controls" width="500" height="400">
+                        <source src="../Videos/video_4.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="box">
+            <h1>Dowry System Image Gallery</h1>
+            <blockquote>
+                <p>This is just a custom gallery in which you see some facts and effects of dowry system.</p>
+            </blockquote>
+            <form class="form-inline">
+                <div class="form-group">
+                    <button id="video-gallery-button" type="button" class="btn btn-success btn-lg">
+                        <i class="glyphicon glyphicon-film"></i>
+                        Launch Video Gallery
+                    </button>
+                </div>
+                <div class="form-group">
+                    <button id="image-gallery-button" type="button" class="btn btn-primary btn-lg">
+                        <i class="glyphicon glyphicon-picture"></i>
+                        Launch Image Gallery
+                    </button>
+                </div>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-success btn-lg">
+                        <i class="glyphicon glyphicon-leaf"></i>
+                        <input id="borderless-checkbox" type="checkbox"> Borderless
+                    </label>
+                    <label class="btn btn-primary btn-lg">
+                        <i class="glyphicon glyphicon-fullscreen"></i>
+                        <input id="fullscreen-checkbox" type="checkbox"> Fullscreen
+                    </label>
+                </div>
+            </form>
+            <br>
+            <!-- The container for the list of example images -->
+            <div id="links">
+                <a href="img/gallery/img (1).jpg" title="Dowry Symbol of Injustice" data-gallery>
+                    <img src="img/gallery/img (1).jpg" width="110" height="110" alt="Dowry Symbol of Injustice">
+                </a>
+                <a href="img/gallery/img (1).png" title="What the Law Say" data-gallery>
+                    <img src="img/gallery/img (1).png" width="110" height="110" alt="What the Law Say">
+                </a>
+                <a href="img/gallery/img (2).jpg" title="Husband and Wife Fight" data-gallery>
+                    <img src="img/gallery/img (2).jpg" width="110" height="110" alt="Husband and Wife Fight">
+                </a>
+                <a href="img/gallery/img (2).png" title="Dowry weight VS. Girl" data-gallery>
+                    <img src="img/gallery/img (2).png" width="110" height="110" alt="Dowry weight VS. Girl">
+                </a>
+                <a href="img/gallery/img (3).jpg" title="Dowry is Begging" data-gallery>
+                    <img src="img/gallery/img (3).jpg" width="110" height="110" alt="Dowry is Begging">
+                </a>
+                <a href="img/gallery/img (3).png" title="Dowry is Curse" data-gallery>
+                    <img src="img/gallery/img (3).png" width="110" height="110" alt="Dowry is Curse">
+                </a>
+                <a href="img/gallery/img (4).jpg" title="Say No To Dowry" data-gallery>
+                    <img src="img/gallery/img (4).jpg" width="110" height="110" alt="Say no To Dowry">
+                </a>
+                <a href="img/gallery/img (5).jpg" title="Evil Effect of Dowry" data-gallery>
+                    <img src="img/gallery/img (5).jpg" width="110" height="110" alt="Evil Effect of Dowry">
+                </a>
+                <a href="img/gallery/img (6).jpg" title="Fire of Dowry" data-gallery>
+                    <img src="img/gallery/img (6).jpg" width="110" height="110" alt="Fire of Dowry">
+                </a>
+                <a href="img/gallery/img (7).jpg" title="Angry Brides" data-gallery>
+                    <img src="img/gallery/img (7).jpg" width="110" height="110" alt="Angry Brides">
+                </a>
+                <a href="img/gallery/img (8).jpg" title="Youth Against Dowry" data-gallery>
+                    <img src="img/gallery/img (8).jpg" width="110" height="110" alt="Youth Against Dowry">
+                </a>
+                <a href="img/gallery/img (9).jpg" title="Full Form of DOWRY" data-gallery>
+                    <img src="img/gallery/img (9).jpg" width="110" height="110" alt="Full Form of DOWRY">
+                </a>
+                <a href="img/gallery/img (10).jpg" title="Don't want Dowry" data-gallery>
+                    <img src="img/gallery/img (10).jpg" width="110" height="110" alt="Don't want Dowry">
+                </a>
+                <a href="img/gallery/img (11).jpg" title="Death from Dowry" data-gallery>
+                    <img src="img/gallery/img (11).jpg" width="110" height="110" alt="Death from Dowry">
+                </a>
+                <a href="img/gallery/img (12).jpg" title="Help Me" data-gallery>
+                    <img src="img/gallery/img (12).jpg" width="110" height="110" alt="Help Me">
+                </a>
+                <a href="img/gallery/img (13).jpg" title="Not For Sale" data-gallery>
+                    <img src="img/gallery/img (13).jpg" width="110" height="110" alt="Not For Sale">
+                </a>
+                <a href="img/gallery/img (14).jpg" title="I am Human, not a towel" data-gallery>
+                    <img src="img/gallery/img (14).jpg" width="110" height="110" alt="I am Human, not a towel">
+                </a>
+                <a href="img/gallery/img (15).jpg" title="Dowry Collection" data-gallery>
+                    <img src="img/gallery/img (15).jpg" width="110" height="110" alt="Dowry Collection">
+                </a>
+                <a href="img/gallery/img (16).jpg" title="Newly Wed Bride Full of Gold" data-gallery>
+                    <img src="img/gallery/img (16).jpg" width="110" height="110" alt="Newly Wed Bride Full of Gold">
+                </a>
+                <a href="img/gallery/img (17).jpg" title="Pooja Thaali" data-gallery>
+                    <img src="img/gallery/img (17).jpg" width="110" height="110" alt="Pooja Thaali">
+                </a>
+                <a href="img/gallery/img (18).jpg" title="Anokha Dahej Movie" data-gallery>
+                    <img src="img/gallery/img (18).jpg" width="110" height="110" alt="Anokha Dahej Movie">
+                </a>
+                <a href="img/gallery/img (19).jpg" title="Even Baba Ramdev Say No To Dowry" data-gallery>
+                    <img src="img/gallery/img (19).jpg" width="110" height="110" alt="Even Baba Ramdev Say No To Dowry">
+                </a>
+                <a href="img/gallery/img (20).jpg" title="Dowry Explaination" data-gallery>
+                    <img src="img/gallery/img (20).jpg" width="110" height="110" alt="Dowry Explaination">
+                </a>
+                <a href="img/gallery/img (21).jpg" title="See Saw of Dowry" data-gallery>
+                    <img src="img/gallery/img (21).jpg" width="110" height="110" alt="See Saw of Dowry">
+                </a>
+                <a href="img/gallery/img (22).jpg" title="Say No To Dowry" data-gallery>
+                    <img src="img/gallery/img (22).jpg" width="110" height="110" alt="Say No To Dowry">
+                </a>
+                <a href="img/gallery/img (23).jpg" title="Stop Violence due to Dowry" data-gallery>
+                    <img src="img/gallery/img (23).jpg" width="110" height="110" alt="Stop Violence due to Dowry">
+                </a>
+                <a href="img/gallery/img (24).jpg" title="Stop This Shame" data-gallery>
+                    <img src="img/gallery/img (24).jpg" width="110" height="110" alt="Stop This Shame">
+                </a>
+                <a href="img/gallery/img (25).jpg" title="Dahej Ka Smaan" data-gallery>
+                    <img src="img/gallery/img (25).jpg" width="110" height="110" alt="Dahej Ka Smaan">
+                </a>
+            </div>
+            <br>
+        </div>
+        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery">
+            <!-- The container for the modal slides -->
+            <div class="slides"></div>
+            <!-- Controls for the borderless lightbox -->
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="close">×</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+            <!-- The modal dialog, which will be used to wrap the lightbox content -->
+            <div class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                        <div class="modal-body next"></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default pull-left prev">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                                Previous
+                            </button>
+                            <button type="button" class="btn btn-primary next">
+                                Next
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="named-anchor-links">
+            <a href="#top" class="n-anchor"><i class="fa fa-arrow-up"></i> Back to TOP</a>
+            <a href="#vids" class="n-anchor"><i class="fa fa-arrow-up"></i> Back to Videos</a>
         </div>
     </div>
 
@@ -120,7 +312,11 @@
         </p>
     </footer>
 
+    <script src="Scripts/jquery111.min.js"></script>
     <script src="Scripts/jquery-2.1.4.js"></script>
     <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery.blueimp-gallery.min.js"></script>
+    <script src="Scripts/bootstrap-image-gallery.min.js"></script>
+    <script src="Scripts/demo.js"></script>
 </body>
 </html>

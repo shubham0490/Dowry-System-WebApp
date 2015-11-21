@@ -136,3 +136,21 @@ a {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
+
+
+.n-anchor{
+    padding-right:2em;
+}
+
+.n-anchor,a{
+    color: orange;
+}
+
+.n-anchor,a:hover{
+    color: lightblue;
+    text-decoration: none;
+}
+
+.named-anchor-links{
+    text-align:right;
+}
